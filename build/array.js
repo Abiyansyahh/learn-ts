@@ -9,5 +9,4 @@ array3 = [1, 'string', true, {}, "bibee", "123456", "bibee"];
 //tuples
 let biodata;
 biodata = ["Solo", 123]; //ok
-biodata = ["Semarang", true]; //error
-biodata = ["Boyolali", 100, false]; //error
+console.log(biodata);

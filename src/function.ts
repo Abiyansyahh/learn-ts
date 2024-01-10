@@ -36,7 +36,7 @@ const fullname = (first: string, last: string = "irawan"): string => {
 console.log(fullname("sumanto"));
 
 //optional parameter
-const getUmur = (val1: number, val2?: number): number => {
+const getUmur = (val1: number, val2: number): number => {
     return val1 + val2;
    // return val1 + " " + val2;
 }
